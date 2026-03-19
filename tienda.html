@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background:rgba(0,0,0,0.95);
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.card{
+    background:#222;
+    padding:20px;
+    margin:10px;
+    border-radius:10px;
+    text-align:center;
+}
+
+button{
+    padding:10px;
+    background:#ff4757;
+    border:none;
+    color:white;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+<h2>BMW</h2>
+<button onclick="parent.comprarYcerrar('BMW.glb')">ELEGIR</button>
+</div>
+
+<div class="card">
+<h2>LAMBORGHINI</h2>
+<button onclick="parent.comprarYcerrar('Lamborghini.glb')">ELEGIR</button>
+</div>
+
+<div class="card">
+<h2>BUGATTI</h2>
+<button onclick="parent.comprarYcerrar('Buggati.glb')">ELEGIR</button>
+</div>
+
+</body>
+</html>

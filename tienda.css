@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background: rgba(0, 0, 0, 0.85); /* Fondo oscuro transparente */
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.shop-container {
+    width: 90%;
+    max-width: 800px;
+    background: #1a1a1a;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid #ff4757;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(255, 71, 87, 0.5);
+}
+
+.car-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.car-card {
+    background: #2f3542;
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.car-card:hover {
+    transform: scale(1.05);
+    border: 1px solid #ff4757;
+}
+
+button {
+    background: #ff4757;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.close-btn {
+    margin-top: 30px;
+    background: none;
+    color: #57606f;
+    text-decoration: underline;
+}
